@@ -13,6 +13,9 @@ authors = [
 ]
 dependencies = [
     "opencv-python",
+    "onnxruntime==1.18.0; sys_platform == 'darwin' and platform_machine != 'arm64'",
+    "onnxruntime-silicon==1.16.3; sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "onnxruntime-gpu==1.18.0; sys_platform != 'darwin'"
 ]
 
 [tool.setuptools.packages.find]
