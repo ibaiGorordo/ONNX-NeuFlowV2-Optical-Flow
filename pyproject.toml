@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuflowv2-onnx"
+version = "0.1.0"
+description = "Run NeuFlowV2 model with ONNX Runtime"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Ibai Gorordo"}
+]
+dependencies = [
+    "opencv-python",
+]
+
+[tool.setuptools.packages.find]
+include = ["neuflowv2"]
+
+[project.urls]
+Homepage = "https://github.com/ibaiGorordo/ONNX-NeuFlowV2-Optical-Flow"
