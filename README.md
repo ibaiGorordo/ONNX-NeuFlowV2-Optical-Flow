@@ -53,6 +53,7 @@ Install first YOLOv10 detection library: `pip install yolov10-onnx`
  ```
  python video_detection_optical_flow.py
  ```
+![neuflow_video](https://github.com/user-attachments/assets/d7920b15-3a51-40a3-8899-3d88691d6052)
 
 ## References:
 * NeuflowV2 model: https://github.com/neufieldrobotics/NeuFlow_v2
