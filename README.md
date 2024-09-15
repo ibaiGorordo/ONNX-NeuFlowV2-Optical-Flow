@@ -56,3 +56,4 @@ Install first YOLOv10 detection library: `pip install yolov10-onnx`
 
 ## References:
 * NeuflowV2 model: https://github.com/neufieldrobotics/NeuFlow_v2
+* NeuflowV2 Pytorch Inference: https://github.com/ibaiGorordo/NeuFlow_v2-Pytorch-Inference
