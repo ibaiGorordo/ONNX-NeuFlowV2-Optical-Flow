@@ -14,16 +14,16 @@ git clone https://github.com/ibaiGorordo/ONNX-NeuFlowV2-Optical-Flow.git
 cd ONNX-NeuFlowV2-Optical-Flow
 pip install -r requirements.txt
 ```
-### ONNX Runtime
-For Nvidia GPU computers:
-`pip install onnxruntime-gpu`
-
-Otherwise:
-`pip install onnxruntime`
 
 ## ONNX model
 - If the model file is not found in the models directory, it will be downloaded automatically from the [Release Assets](https://github.com/ibaiGorordo/ONNX-NeuFlowV2-Optical-Flow/releases/tag/0.1.0).
 - **Available models**: neuflow_mixed.onnx, neuflow_sintel.onnx, neuflow_things.onnx
+- You can export a custom model using the Pytorch Inference repository below.
+
+## Pytorch Inference / ONNX Export
+- Pytorch Inference repository: https://github.com/ibaiGorordo/NeuFlow_v2-Pytorch-Inference
+- Includes the minimal code to perform inference with the NeuFlowV2 model in Pytorch.
+- You can export your custom model to ONNX using the `export_onnx.py` script.
 
 ## Original NeuflowV2 model
 The original NeuflowV2 model can be found in this repository: https://github.com/neufieldrobotics/NeuFlow_v2
@@ -45,7 +45,6 @@ The original NeuflowV2 model can be found in this repository: https://github.com
  ```
  python video_optical_flow.py
  ```
-
 
  * **Optical Flow of Detected Objects**: https://youtu.be/S0RnlEHGNrc
 
